@@ -1,0 +1,7 @@
+{
+  "name": "avformadora3",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

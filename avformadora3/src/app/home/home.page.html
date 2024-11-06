@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Tela Inicial</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-card>
+    <ion-img [src]="studentPhoto" alt="Foto do aluno"></ion-img>
+    <ion-card-header>
+      <ion-card-title>{{ studentName }}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Código do Aluno: {{ studentCode }}
+    </ion-card-content>
+  </ion-card>
+  <ion-button expand="full" routerLink="/address">Buscar Endereço</ion-button>
+</ion-content>
